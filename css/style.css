@@ -282,6 +282,11 @@ footer {
 }
 
 @media(max-width: 768px) {
+
+    .carousel-item {
+        height: 50vh;
+    }
+
     .navbar {
         padding: .75rem 2rem;
     }
@@ -353,5 +358,17 @@ footer {
 @media(max-width: 450px) {
     .carousel-item {
         height: 70vh;
+    }
+}
+
+@media(max-width: 398px) {
+    .carousel-item {
+        height: 80vh;
+    }
+}
+
+@media(max-height: 568px) {
+    .carousel-item {
+        height: 90vh;
     }
 }
