@@ -198,6 +198,7 @@ footer {
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-wrap: nowrap;
     flex: 1;
 }
 
@@ -364,6 +365,10 @@ footer {
 @media(max-width: 398px) {
     .carousel-item {
         height: 80vh;
+    }
+
+    footer {
+        padding: 4rem;
     }
 }
 
