@@ -104,6 +104,7 @@ h3 {
 
 .carousel-item {
     height: 45vh;
+
 }
 
 .intrepid-img {
@@ -372,7 +373,7 @@ footer {
     }
 }
 
-@media(max-height: 765px) {
+@media(max-height: 785px) {
     .carousel-item {
         height: 50vh;
     }
