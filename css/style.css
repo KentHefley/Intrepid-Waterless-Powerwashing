@@ -372,7 +372,7 @@ footer {
     }
 }
 
-@media(max-height: 755px) {
+@media(max-height: 765px) {
     .carousel-item {
         height: 50vh;
     }
