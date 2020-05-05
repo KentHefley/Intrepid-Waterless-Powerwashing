@@ -285,6 +285,10 @@ footer {
 
 @media(max-width: 768px) {
 
+    .about-copy {
+        text-align: center;
+    }
+
     .carousel-item {
         height: 50vh;
     }
